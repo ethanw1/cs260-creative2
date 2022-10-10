@@ -2,44 +2,61 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Lab 2</title>
+        <title>Creative 2</title>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <link id="theme" rel="stylesheet" href="styles.css">
     </head>
     <body>
-        
-        <form>
-            <fieldset>
-                <legend>Enter the top meme text:</legend>
-                <input placeholder="text" id="topTextInput">
-                <legend>Enter the bottom meme text:</legend>
-                <input placeholder="text" id="bottomTextInput">
-                <h2>These options are for deep frying the meme:</h2>
-                <legend>Enter the number of random colors to include in the gradient deep fry overlay:</legend>
-                <input placeholder="number" id="number">
-                <legend>Enter the angle for the direction of the gradient:</legend>
-                <input placeholder="angle" id="angle">
-                <br>
-                <legend>Should the colors be light, dark, or any shade?</legend>
-                <select id="selector">
-                    <option value="">Any</option>
-                    <option value="type=light">Light</option>
-                    <option value="type=dark">Dark</option>
-                </select>
-                <p></p>
-                <button id="gradient">Deep Fry!</button>
-                <button id="setText">Set Text</button>
-                <button id="newPic">Change Image</button>
-            </fieldset>
-        </form>
-        
-        <div id="megaparent">
-            <div id="parent">
-                <div id="overlay"></div>
-                <h1 id="topText">Top Text</h1>
-                <h1 id="bottomText">Bottom Text</h1>
+        <hr>
+        <div id="topStuff">
+            <div id="left">
+                <h1 id="title">Create Dog Memes</h1>
+                <h2 id="subtitle">Deep fry them if you dare.</h2>
+                <form>
+                    <fieldset>
+                        <label>Enter the top meme text:</label><br><br>
+                        <input placeholder="text" id="topTextInput">
+                        <hr>
+                        <label>Enter the bottom meme text:</label><br><br>
+                        <input placeholder="text" id="bottomTextInput">
+                        <hr>
+                        <h2>These options are for deep frying the meme:</h2>
+                        <hr>
+                        <label>Enter the number of random colors to include in the gradient deep fry overlay:</label><br><br>
+                        <input placeholder="number" id="number">
+                        <hr>
+                        <label>Enter the angle for the direction of the gradient:</label><br><br>
+                        <input placeholder="angle" id="angle">
+                        <hr>
+                        <label>Should the colors be light, dark, or any shade?</label><br><br>
+                        <select id="selector">
+                            <option value="">Any</option>
+                            <option value="type=light">Light</option>
+                            <option value="type=dark">Dark</option>
+                        </select>
+                        <hr>
+                        <button id="gradient">Deep Fry!</button>
+                        <button id="setText">Set Text</button>
+                        <button id="newPic">Change Image</button>
+                    </fieldset>
+                </form>
+            </div>
+            <div id="right">
+                <h2 class="l">Exceeding doge</h2>
+                <h2 class="r">Such cool</h2>
+                <div id="megaparent">
+                    <div id="parent">
+                        <div id="overlay"></div>
+                        <h1 id="topText">Top Text</h1>
+                        <h1 id="bottomText">Bottom Text</h1>
+                    </div>
+                </div>
+                <h2 class="l">Much wow</h2>
+                <h2 class="r">Very puppers</h2>
             </div>
         </div>
+        
+        <hr>
         
         <a href="https://github.com/ethanw1/cs260-creative2">Github Repo</a>
         
