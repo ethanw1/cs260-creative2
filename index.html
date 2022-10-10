@@ -3,11 +3,45 @@
     <head>
         <meta charset="utf-8"/>
         <title>Lab 2</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <link id="theme" rel="stylesheet" href="styles.css">
     </head>
     <body>
         
+        <form>
+            <fieldset>
+                <legend>Enter the top meme text:</legend>
+                <input placeholder="text" id="topTextInput">
+                <legend>Enter the bottom meme text:</legend>
+                <input placeholder="text" id="bottomTextInput">
+                <h2>These options are for deep frying the meme:</h2>
+                <legend>Enter the number of random colors to include in the gradient deep fry overlay:</legend>
+                <input placeholder="number" id="number">
+                <legend>Enter the angle for the direction of the gradient:</legend>
+                <input placeholder="angle" id="angle">
+                <br>
+                <legend>Should the colors be light, dark, or any shade?</legend>
+                <select id="selector">
+                    <option value="">Any</option>
+                    <option value="type=light">Light</option>
+                    <option value="type=dark">Dark</option>
+                </select>
+                <p></p>
+                <button id="gradient">Deep Fry!</button>
+                <button id="setText">Set Text</button>
+                <button id="newPic">Change Image</button>
+            </fieldset>
+        </form>
         
+        <div id="megaparent">
+            <div id="parent">
+                <div id="overlay"></div>
+                <h1 id="topText">Top Text</h1>
+                <h1 id="bottomText">Bottom Text</h1>
+            </div>
+        </div>
+        
+        <a href="https://github.com/ethanw1/cs260-creative2">Github Repo</a>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
         <script text="type/javascript" src="script.js">
